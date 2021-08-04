@@ -1,0 +1,561 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin:0; padding:0;
+    font-size:15px; 
+    line-height:1.3;
+}
+
+/* Administrator Login */
+
+.content_login{
+    min-width:200px;
+    padding-bottom:170px;
+}
+
+.section_login{
+    width: 340px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+.logo1_img{
+    width: 343px;
+}
+
+.login_title{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(92, 122, 167);
+}
+
+.login_text_wrap{ /* input type 관련 */
+    width:340px;
+    height:51px;
+    margin-top: 10px;
+} 
+.login_btn{
+    width: 345px; 
+    height: 54px; 
+    border: none; 
+    border-radius: 3px;
+    background-color: #235879;
+    color:white;
+    text-align: center; 
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(109, 145, 192);
+  }
+
+/* section_select 화면 */
+
+.content_select{
+    min-width:1000px;
+}
+
+.section_select{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.logo2_img{
+    width: 200px;
+}
+
+.main_title{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #235879;
+}
+
+.building_img{
+    width: 1000px;
+}
+
+.button_list{
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.button_list1{
+    width: 497px;
+    height: 50px;
+    border: none; 
+    border-radius: 3px;
+    background-color: #235879;
+    color:white;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button_list2{
+    width: 497px;
+    height: 50px;
+    border: none; 
+    border-radius: 3px;
+    background-color: #235879;
+    color:white;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type=button]:hover {
+    background-color: rgb(109, 145, 192);
+  }
+
+
+/* reward(보상평가시스템) 메인화면 */
+
+.reward{
+    min-width:1100px;
+}
+
+.map_title{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.logo3_img{
+    width: 200px;
+}
+
+.reward_title{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #235879;
+}
+
+.base_img{
+    width: 1100px;
+}
+
+.back_btn{
+    margin-top: 20px;
+    float: right;
+    width: 130px;
+    height: 60px;
+    border: none; 
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #235879;
+}
+
+.line{
+    height: 2px;
+    background-color: #235879;
+}
+
+/* 바우하우스 호별 목록 */
+
+.bauhaus_div{
+    margin-top: 220px;
+    min-width:1000px;
+}
+
+.bauhaus_div2{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.bauhaus_floor{
+    padding-left: 45px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bauhaus_button{
+    width: 300px;
+    height: 50px;
+    border: none; 
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #7c8d97;
+}
+
+/* 개별평가시스템 화면 */
+
+.header {
+    margin-top: 40px;
+}
+
+/* Logout_button */
+.logout {
+    float: right;
+    margin-right: 100px;
+}
+.logout_button {
+    border: none;
+    background-color: #235879;
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+}
+.logout_button:hover {
+    background-color: rgb(172, 205, 248);
+    cursor: pointer;
+}
+
+/* header Logo 영역 */
+.headerLogo{ 
+    width: 800px;
+    margin-left: 100px;
+}
+.headerLogo img{
+    width: 250px;
+}
+.headerLogo h2{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(122, 154, 218);
+}
+.box{
+    height: 5px;
+    background-color: rgb(188, 210, 255);
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* 왼쪽 DIV */
+.wapper_a {
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 500px;
+    height: 735px;
+}
+.map{  /* guide map */
+    width: 500px;
+    height: 394px;
+}
+.map h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(105, 144, 221);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.map img{
+    width: 500px;
+}
+
+.area{  /* 면적 */
+    width: 500px;
+    height: 130px;
+    margin-bottom: 5px;
+}
+.area_table {
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(188, 210, 255);
+}
+.area_name {
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.area_value {
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.area_value td {
+    font-size: x-large;
+    color: rgb(106, 126, 238);
+}
+
+.cost{   /* 권리가액 및 평단가 */
+    width: 500px;
+    height: 195px;
+    border-radius: 10px;
+    background-color: rgb(188, 210, 255);
+}
+.cost_table {
+    width: 500px;
+    height: 190px;
+    text-align: center;
+}
+.cost_name {
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.cost_name tr{
+    border: 1px solid;
+}
+.cost_value td {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(39, 62, 190);
+}
+
+
+/* 오른쪽 결과값 DIV */
+.tabmenu{
+    margin-top: 20px;
+    position:relative;
+}
+#tab1 {
+    margin-left: 20px;
+}
+.tabmenu ul li{
+    display: inline-block;
+    width:10%;
+    text-align: center;
+    background :#e9e9e9;
+    line-height:40px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.tabmenu label{
+    display:block;
+    width:100%; 
+    height:40px;
+    line-height:40px;
+}
+.tabmenu label:hover{
+    background-color: rgb(197, 222, 255);
+    color: rgb(255, 255, 255);
+}
+.tabmenu input {
+    display: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.tabCon{
+    display: none; 
+    text-align: left; 
+    padding: 15px;
+    position: absolute;
+    margin-left: 620px;
+    left:0; top: 40px; 
+    box-sizing: border-box;
+    width: 1200px;
+    height: 695px;
+    border : 5px solid rgb(227, 239, 255);
+}
+.tabmenu input:checked ~ label{
+    background: rgb(105, 144, 221);
+    color: rgb(227, 239, 255);
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.tabmenu input:checked ~ .tabCon{
+    display:block;
+}
+
+
+/* 보상평가 단계별 DIV */
+
+/* 하단 체크박스 창 */
+
+.step1 {
+    float: left;
+    height: 100%;
+    width: 19%;
+}
+.step2, .step3, .step4, .step5 {
+    float: left;
+    margin-left: 12px;
+    height: 100%;
+    width: 19%;
+}
+.bar {
+    margin-top: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(105, 144, 221);
+}
+
+.tabCon h2 {
+    color: rgb(105, 144, 221);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+.tabCon h3 {
+    color: rgb(72, 116, 204);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+/* 첫번째 체크박스(보상평가체계)의 내용들 */
+.images {
+    margin-top: 10px;
+    width: 100%;
+    height: 380px;
+    text-align: center;
+}
+.images img {
+    width: 210px;
+}
+.step1_img {
+    margin-top: 190px;
+}
+.step2_img {
+    margin-top: 144px;
+}
+.step3_img {
+    margin-top: 96px;
+}
+.step4_img {
+    margin-top: 48px;
+}
+.step5_img {
+    margin-top: 2px;
+}
+.values {
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+    
+    text-align: center;
+}
+.title {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+.info_button {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+.info_button button{
+    border: none;
+    background-color: #235879;
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+.info_button button:hover {
+    background-color: rgb(146, 182, 255);
+    cursor: pointer;
+}
+
+/* modal_design */
+#modal1, #modal2, #modal3, #modal4, #modal5 {
+    display: none;
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+  
+#modal1 button, #modal2 button, #modal3 button, #modal4 button, #modal5 button {
+    border: none;
+    background-color: #235879;
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+}
+
+#modal1 button:hover, #modal2 button:hover, #modal3 button:hover, #modal4 button:hover, #modal5 button:hover {
+    background-color: rgb(146, 182, 255);
+    cursor: pointer;
+}
+
+  
+#modal1 .modal_content, #modal2 .modal_content, #modal3 .modal_content, #modal4 .modal_content, #modal5 .modal_content {
+    width:1000px;
+    height:500px;
+    margin:50px auto;
+    padding:20px 20px;
+    background:#fff;
+    border:2px solid #666;
+}
+  
+#modal1 .modal_layer, #modal2 .modal_layer, #modal3 .modal_layer, #modal4 .modal_layer, #modal5 .modal_layer {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:-1;
+}
+
+
+/* 금액 */
+
+.txt_0{
+    padding-top: 20px;
+    color: rgb(84, 131, 224);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.txt_1, .txt_2, .txt_3, .txt_4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.values button {
+    border: none;
+    background-color: rgb(84, 131, 224);
+    color: rgb(255, 255, 255);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+    border-radius: 3px;
+    width: 70px;
+    height: 25px;
+}
+
+.values button:hover {
+    background-color: rgb(146, 182, 255);
+    cursor: pointer;
+}

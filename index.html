@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap" rel="stylesheet">
+    <title>:::JBNC_System:::</title>
+</head>
+<link href="css/css.css" type="text/css" rel="stylesheet">
+<body>
+    <div class="content_login">
+        <div class="section_login">
+            <img src="image/2logo-02.png" class="logo1_img">
+            <h2 class="login_title">중곡2지구 사업관리시스템</h2>
+            <form method="post" name="form" class="login_form">
+                <input type="text" name="member_id" tabindex="1" size="20"placeholder="아이디를 입력하세요." class="login_text_wrap" id="userid"><br/>
+                <input type="password" name="password" tabindex="2" placeholder="비밀번호를 입력하세요." class="login_text_wrap" id="userpw">  
+                <input type="button" class="login_btn" value="로그인" style='cursor:pointer;' id="signinButton">
+            </form> 
+        </div>
+    </div>
+</body>
+
+  <script type="text/javascript">
+    console.log("fighting!");
+    console.log(document); // html 태그 전체를 콘솔에 띄워주자.
+
+    var signinButton = document.getElementById("signinButton") // 버튼을 만들고.
+    signinButton.addEventListener('click', signinFunc) // 'click'이란 id의 버튼을 누르면 signinFunc 함수를 실행.
+
+    function signinFunc () {
+      var userid = document.getElementById("userid").value; // userid 의 값을 받아와 넣음.
+      var userpw = document.getElementById("userpw").value; // userpw 의 값을 받아와 넣음.
+
+
+      if(userid == "jbncadmin" && userpw == "12345") {
+        location.href="section.html";
+        console.log("로그인 성공했습니다.");
+      } else {
+        alert("로그인 실패");
+        console.log("로그인 실패했습니다.");
+      }
+    }
+
+  </script>
+
+</html>
